@@ -69,7 +69,7 @@ module.exports = function generate(type, options, settings) {
 function getNames(name) {
   return {
     name,
-    name_cc: toCamelCase(name),
+    name_cc: name,
     name_pc: toPascalCase(name),
     name_sc: toSlugCase(name),
     name_uc: toUpperCase(name),
